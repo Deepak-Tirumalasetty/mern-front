@@ -1,0 +1,13 @@
+.addtask{
+    background-color: gray;
+    padding: 5%;
+    border-radius: 5%;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.card{
+    width: 25vw;
+    text-align: center;
+}

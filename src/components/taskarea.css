@@ -1,0 +1,10 @@
+.taskarea{
+    width: 100vw;
+    height: 50vh;
+    height: fit-content;
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
