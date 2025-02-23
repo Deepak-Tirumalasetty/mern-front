@@ -25,6 +25,9 @@ function TaskCard({ title, desc, id, onTaskDeleted }) {
       await axios.delete(`https://mern-back-21g1.onrender.com/tasks/${id}`);
       console.log("Task deleted successfully");
 
+
+
+      
       // Notify parent component to refresh task list
       if (onTaskDeleted) {
         onTaskDeleted();
