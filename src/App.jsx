@@ -13,7 +13,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
 
   const fetchTasks = () => {
-    fetch("http://localhost:5000/tasks")
+    fetch("https://mern-back-21g1.onrender.com/tasks")
       .then((res) => res.json())
       .then((data) => setTasks(data))
       .catch((err) => console.error("Error fetching tasks:", err));
@@ -27,10 +27,6 @@ function App() {
       { id: 3, title: "Task 3", description: "Prepare for the upcoming meeting" },
     ];
 
-    // Simulating API delay
-    // setTimeout(() => {
-    //   setTasks(placeholderTasks);
-    // }, 1000);
 
 
       fetchTasks()

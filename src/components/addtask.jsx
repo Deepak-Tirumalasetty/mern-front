@@ -10,7 +10,7 @@ function AddTask({ onTaskAdded }) {
         e.preventDefault();
 
         try {
-            const response = await axios.post("http://localhost:5000/tasks", {
+            const response = await axios.post("https://mern-back-21g1.onrender.com/tasks", {
                 title,
                 description,
             });
